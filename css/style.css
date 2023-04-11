@@ -11,14 +11,17 @@
     margin: 0 auto;
     max-width: 1200px;
     margin-top: 30px;
-    max-height: 900px;
+}
+
+.container-cards{
+    margin-top: 40px;
 }
 
 /*titolo e sotto-titolo*/
 
 #title-team{
     font-size: 35px;
-    color: crimson;
+    color: #e53170;
     text-align: center;
     font-weight: 700;
 }
@@ -30,7 +33,17 @@
     text-align: center;
 }
 
-/*linee e colonne*/
+/*righe e colonne*/
+
+.row{
+    margin-top: 40px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 .column > img{
     max-height: 100px;
@@ -43,13 +56,12 @@
     width: calc(100% / 3 - 30px) ;
     float: left;
     margin-left: 30px;
-    background-color: rgb(17, 17, 49);
+    background-color: #0f0e17;
     color: white;
+    box-shadow: 0px 0px 5px 5px #d9d9d8;
 }
 
-.container-cards{
-    margin-top: 40px;
-}
+/*testi paragrafi e email*/
 
 p.text-team{
     margin-top:10px;
@@ -67,10 +79,6 @@ a.email{
     margin-top: 7px;
     display: block;
     text-decoration: none;
-    color: aqua;
+    color: #23b5f2;
 }
 
-.line{
-    overflow: auto;
-    margin-top: 40px;
-}

@@ -27,3 +27,17 @@
     margin-top: 40px;
     text-align: center;
 }
+
+/*linee e colonne*/
+
+.column > img{
+    max-height: 100px;
+    background-color: red ;
+    float: left;
+}
+
+.column{
+    height: 100px;
+    width: calc(100% / 3 - 20px) ;
+    float: left;
+}

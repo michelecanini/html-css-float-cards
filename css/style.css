@@ -41,10 +41,28 @@
     width: calc(100% / 3 - 20px) ;
     float: left;
     margin-left: 20px;
-    background-color: darkblue;
+    background-color: rgb(17, 17, 49);
     color: white;
 }
 
 .container-cards{
     margin-top: 40px;
+}
+
+p.text-team{
+    margin-top:10px;
+    margin-left: 115px;
+    font-weight: bold;
+}
+
+div > p{
+    margin-top:10px;
+    margin-left: 115px;
+}
+
+a.email{
+    margin-left: 115px;
+    margin-top: 5px;
+    display: block;
+   
 }

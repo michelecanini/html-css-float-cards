@@ -6,3 +6,13 @@
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
 }
+
+#title-team{
+    font-size: 35px;
+    color: crimson;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+}

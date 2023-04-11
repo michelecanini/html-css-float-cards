@@ -11,8 +11,16 @@
     font-size: 35px;
     color: crimson;
     text-align: center;
+    font-weight: 700;
 }
 
 .container{
     margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+.sub-title{
+    font-weight: 400;
+    margin-top: 40px;
 }

@@ -9,7 +9,7 @@
 
 .container{
     margin: 0 auto;
-    max-width: 1200px;
+    width: 65%;
     margin-top: 30px;
 }
 
@@ -20,7 +20,7 @@
 /*titolo e sotto-titolo*/
 
 #title-team{
-    font-size: 35px;
+    font-size: 40px;
     color: #e53170;
     text-align: center;
     font-weight: 700;
@@ -28,15 +28,17 @@
 
 .sub-title{
     font-weight: 400;
-    margin-top: 40px;
+    margin-top: 50px;
+    font-size: 17px;
     margin-left: 25px;
     text-align: center;
+    
 }
 
 /*righe e colonne*/
 
 .row{
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .row::after{
@@ -64,19 +66,19 @@
 /*testi paragrafi e email*/
 
 p.text-team{
-    margin-top:10px;
-    margin-left: 115px;
+    padding-top:10px;
+    padding-left: 115px;
     font-weight: bold;
 }
 
-div > p{
-    margin-top:10px;
-    margin-left: 115px;
+div.column > p{
+    padding-top: 10px;
+    padding-left: 115px;
 }
 
 a.email{
-    margin-left: 115px;
-    margin-top: 7px;
+    padding-left: 115px;
+    padding-top: 10px;
     display: block;
     text-decoration: none;
     color: #23b5f2;

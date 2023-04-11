@@ -7,6 +7,14 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+/*titolo e sotto-titolo*/
+
 #title-team{
     font-size: 35px;
     color: crimson;
@@ -14,13 +22,8 @@
     font-weight: 700;
 }
 
-.container{
-    margin: 0 auto;
-    max-width: 1000px;
-    margin-top: 30px;
-}
-
 .sub-title{
     font-weight: 400;
     margin-top: 40px;
+    text-align: center;
 }

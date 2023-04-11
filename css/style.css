@@ -51,7 +51,6 @@
     margin-top: 40px;
 }
 
-
 p.text-team{
     margin-top:10px;
     margin-left: 115px;
@@ -65,13 +64,13 @@ div > p{
 
 a.email{
     margin-left: 115px;
-    margin-top: 5px;
+    margin-top: 7px;
     display: block;
-   
+    text-decoration: none;
+    color: aqua;
 }
 
 .line{
     overflow: auto;
     margin-top: 40px;
-
 }
